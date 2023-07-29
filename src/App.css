@@ -4,3 +4,7 @@
   font-weight: normal;
   src: local("SEGA LOGO FONT"), url("./fonts/SEGA.woff") format("woff");
 }
+
+h1 {
+  font-family: "SEGA LOGO FONT", san-serif;
+}
