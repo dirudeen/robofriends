@@ -40,7 +40,9 @@ class App extends Component {
     });
     return (
       <div className="text-center">
-        <h1 className="text-6xl text-blue-500 font-bold">RoboFriends</h1>
+        <h1 className=" font-mono text-6xl text-blue-500 font-bold">
+          RoboFriends
+        </h1>
         <Searchbox searchChange={this.onsearchChange}></Searchbox>
         <CardLists robots={filtedRobots}></CardLists>
       </div>
