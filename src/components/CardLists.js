@@ -2,9 +2,6 @@ import React from "react";
 import CardTemplate from "./CardTemplate";
 
 const CardLists = ({ robots }) => {
-  if (true) {
-    throw new Error("noooooo this is bad");
-  }
   return (
     <div className="px-6">
       {robots.map((user, i) => {
