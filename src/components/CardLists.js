@@ -3,7 +3,7 @@ import CardTemplate from "./CardTemplate";
 
 const CardLists = ({ robots }) => {
   return (
-    <div>
+    <div className="px-6">
       {robots.map((user, i) => {
         return (
           <CardTemplate
