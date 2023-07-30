@@ -20,11 +20,11 @@ class App extends Component {
           return respones.json();
         })
         .then((Users) => {
-          if (!Users.length) {
-            return <h2>Loading</h2>;
-          } else {
-            this.setState({ robots: Users });
-          }
+          return !Users.length ? (
+            <h2>Loading</h2>
+          ) : (
+            this.setState({ robots: Users })
+          );
         });
     } catch (error) {
       console.error(error);
